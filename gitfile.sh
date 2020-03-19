@@ -7,7 +7,7 @@ useradd -m $USERNAME
 VALUE=$( cat /etc/passwd | grep -i "$USERNAME" )
 echo "user is $USERNAME"
 echo "user details: $VALUE"
-
+echo "end of the script"
 
 
 
